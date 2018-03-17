@@ -9,8 +9,6 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Stack;
 
-import com.sun.org.omg.CORBA.StructMemberSeqHelper;
-
 public class CharacterPool {
 
 	static final byte[] DEFAULT_HEADER = new byte[] { (byte) 0xFF, (byte) 0xFF, (byte) 0xFF, (byte) 0xFF };
